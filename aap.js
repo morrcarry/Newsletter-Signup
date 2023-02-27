@@ -30,11 +30,11 @@ app.post("/",function(req,res){
   };
 
   const jsonData=JSON.stringify(data);
-  const url="https://us21.api.mailchimp.com/3.0/lists/7e9fd2c3a3";
+  const url=//API url;
 
   const options={
     method:"POST",
-    auth:"morrcarry:b924285a5b7222295f78e87395d5a651-us21"
+    auth://author name;
   }
 
 const request=https.request(url,options,function(response){
@@ -63,5 +63,4 @@ app.listen(process.env.PORT || 3000,function(){
   console.log("Server is running on port 3000");
 });
 
-//b924285a5b7222295f78e87395d5a651-us21
-//audience key 7e9fd2c3a3
+
